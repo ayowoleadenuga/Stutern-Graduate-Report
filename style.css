@@ -91,7 +91,7 @@ html, body {
 	margin-left: 12.5%;
 }
 .header__button, .header__button:visited { text-decoration: none !important; font-size: 2.4rem; padding: 1rem; border: 0.1rem solid #FEBA10; border-radius: 5%; 
-	color: #fff; background-color: #073731;
+	color: #fff; background-color: #073731; text-transform: uppercase;
 	text-shadow:0 .1rem 0 #5b8a3c; transition: all 0.5s ease-in; animation: moveInUp 2s ease 3.5s backwards;
 }
 .header__button:hover {
@@ -392,6 +392,7 @@ footer a {
 	animation-name: moveInLeft;
 	animation-duration: 2s;
 	transition: all ease;
+	backface-visibility: hidden;
 }
 .move-in-Up {
 	animation: moveInUp 1s ease backwards;
