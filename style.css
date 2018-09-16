@@ -40,10 +40,7 @@ html, body {
 	transform: translate(-80%, -53%) */
 }
 .header-center2 {
-	/* position: absolute;
-	top: 20%;
-	left: 55%;
-	transform: translate(-5%, -53%) */
+	margin-top: -11rem;
 }
 .headFont {
 	font-family: 'Montserrat', sans-serif;
@@ -91,7 +88,7 @@ html, body {
 	margin-top: 2%;
 	margin-left: 12.5%;
 }
-.header__button, .header__button:visited { text-decoration: none !important; font-size: 2.4rem; padding: 1rem; border: 0.1rem solid #FEBA10; border-radius: 5%; 
+.header__button, .header__button:visited { text-decoration: none !important; font-size: 2rem; padding: 1rem; border: 0.1rem solid #FEBA10; border-radius: 5%; 
 	color: #fff; background-color: #073731; text-transform: uppercase;
 	text-shadow:0 .1rem 0 #5b8a3c; transition: all 0.5s ease-in; animation: moveInUp 2s ease 3.5s backwards;
 }
@@ -189,6 +186,9 @@ nav a:hover {
 	font-weight: 600;
 	font-size: 3rem;
 	display: inline-block;
+}
+.mt3 {
+	margin-top: 3rem;
 }
 .mt6 {
 	margin-top: 6rem;
