@@ -47,6 +47,10 @@ html, body {
 .headFont {
 	font-family: 'Montserrat', sans-serif;
 }
+
+.centering {
+	margin: 0 auto !important;
+}
 .green {
 	color: #073731;
 }
@@ -57,11 +61,10 @@ html, body {
 	transition: all;
 }
 .stat-text__words{
-	font-size: 2.4rem;
-	margin-bottom: 2rem;
+	font-size: 2rem;
 }
 .stat-text__words span{
-	font-size: 3rem;
+	font-size: 1.4rem;
 }
 
 .header2{
@@ -77,7 +80,8 @@ html, body {
 	color: #FEBA10;
 	/* top: 19rem;
 	left: 8.5rem; */
-	font-size: 6rem;
+	font-size: 3rem;
+	margin-bottom: 10px;
 }
 
 .btn-down {
