@@ -53,7 +53,6 @@ html, body {
 .stat-text__topic{
 	/* opacity: 0; */
 	font-size: 3.5rem;
-	margin-bottom: 1.6rem;
 	animation: moveInRight 2s ease-in 1s backwards;
 	transition: all;
 }
@@ -64,6 +63,7 @@ html, body {
 .stat-text__words span{
 	font-size: 3rem;
 }
+
 .header2{
 	position: absolute;
 	top: 60%;
@@ -72,9 +72,6 @@ html, body {
 .logo{
 	width: 7.6rem;
 	height: 7.1rem;
-	top: 3rem;
-	left: 3rem;
-	position: absolute;;
 }
 .topic{
 	color: #FEBA10;
@@ -82,10 +79,7 @@ html, body {
 	left: 8.5rem; */
 	font-size: 6rem;
 }
-.btn-top {
-	position: absolute;
-	margin-top: 2%;
-} 
+
 .btn-down {
 	margin-top: 2%;
 	margin-left: 12.5%;
@@ -142,13 +136,11 @@ nav a:hover {
 	margin-left: 12%;
 }
 .megc {
-	width: 80%;
-	transform: scale(0.7)
-	/* margin: 0 auto; */
+	width: 50%;
 }
 .hero{
-	width: 75%;
-    height: 37rem;
+		width: 75%;
+    height: 100%;
     margin-top: 3rem;
     border-radius: 1rem;
     border: .1rem solid #ccc;
@@ -156,20 +148,19 @@ nav a:hover {
 		margin-left: 12%;
 		display: flex;
 		flex-flow: row-wrap;
+		text-align: center;
 }
-.hero-data {
-	width: 50%;
+
+.margine {
+	margin: auto 0;
 }
-.hero-text {
-	width: 50%;
-	padding-top: 10%;
-} 
+
 .hero-text h5 {
 	font-size: 2.5rem;
+	font-weight: bold;
 }
 .hero-text p {
 	font-size: 1.8rem;
-	width: 70%;
 }
 .cat a{
 	margin-top: 4rem;
@@ -213,9 +204,6 @@ nav a:hover {
 .mt5 {
 	margin-top: 5rem;
 }
-.mt {
-	margin-top: 10%;
-}
 
 .mb-50 {
 	margin-bottom: 5rem;
@@ -231,7 +219,6 @@ nav a:hover {
 	font-weight: 600;
   }
 
-}
 
 /* Slider */
 .slick-slide {
@@ -470,6 +457,7 @@ ul li a{
 }
 
 @media only screen and (min-width: 320px){
+
     ul li a{
       font-size: 12px;
       font-family: 'Open Sans', sans-serif;
@@ -493,6 +481,7 @@ ul li a{
 }
 
 @media only screen and (min-width: 768px){
+	
     footer{
       width: 100%;
       height: 220px;
