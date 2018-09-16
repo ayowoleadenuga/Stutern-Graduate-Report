@@ -152,7 +152,7 @@ nav a:hover {
     margin-top: 3rem;
     border-radius: 1rem;
     border: .1rem solid #ccc;
-    box-shadow: .5rem .5rem .5rem rgba(68, 68, 68, 0.6);
+    box-shadow: .1rem .5rem 1rem rgba(68, 68, 68, 0.6);
 		margin-left: 12%;
 		display: flex;
 		flex-flow: row-wrap;
