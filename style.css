@@ -145,6 +145,11 @@ nav a:hover {
 /* 	transform: scale(0.6) */
 	/* margin: 0 auto; */
 }
+.int {
+	font-size: 1.2rem;
+	font-family: 'Montserrat', sans-serif;
+	color: #073731;
+}
 .hero{
 	width: 75%;
     height: 37rem;
