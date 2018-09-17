@@ -141,9 +141,12 @@ nav a:hover {
 }
 .megc {
 	width: 80%;
-	margin-top: 1.5rem;
 /* 	transform: scale(0.6) */
 	/* margin: 0 auto; */
+}
+.megc-box {
+	text-align: center;
+	padding-top: 1.5rem
 }
 .int {
 	font-size: 1.2rem;
@@ -455,7 +458,7 @@ ul li a{
   margin-left: 23%;
 }
 .follow .social{
-  width: 9px;
+  width: 12px;
   height: 10px;
   margin-right: 10px;
 }
@@ -468,7 +471,7 @@ ul li a{
       font-family: 'Open Sans', sans-serif;
 }
 
-@media only screen and (max-width: 480px){
+/* @media only screen and (max-width: 480px){
 		html {
 			font-size: 70%;
 		}
@@ -476,13 +479,22 @@ ul li a{
 			display: none;
 		}
 
-}
+} */
 
 @media only screen and (min-width: 320px){
 	 	.about-header {
 			 font-size: 2.3rem;
 		 }
 		 .btn-down {
+			 margin-left: 0;
+		 }
+		 .mt5 {
+			 margin-top: 0;
+		 }
+		 .twoR {
+			 margin-left: 2rem;
+		 }
+		 .new {
 			 margin-left: 0;
 		 }
     ul li a{
@@ -495,7 +507,7 @@ ul li a{
       font-size: 13px;
       font-family: 'Open Sans', sans-serif;
       /*margin-right: 10%;*/
-      /*margin-top: 0px;*/
+      /* margin-top: 10px; */
   }
   .follow .social{
       width: 9px;
@@ -552,7 +564,7 @@ ul li a{
 	}
 	.hero{
 		width: 100%;
-			height: 3rem;
+			height: 43rem;
 			margin-top: 3rem;
 			border-radius: 1rem;
 			border: .1rem solid #ccc;
@@ -625,8 +637,20 @@ ul li a{
 	nav {
 		top: 82%;
 	}
+	.new {
+		margin-left: 12%;
+	}
+	.twoR {
+		margin-left: 0;
+	}
+	.mt5 {
+		margin-top: 5rem;
+	}
 	.megc {
-		width: 60%;
+		width: 80%;
+	}
+	.btn-down {
+		margin-left: 12.5%;
 	}
   footer{
       width: 100%;
