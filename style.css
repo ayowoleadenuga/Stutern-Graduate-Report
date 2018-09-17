@@ -625,6 +625,9 @@ ul li a{
 	nav {
 		top: 82%;
 	}
+	.megc {
+		width: 60%;
+	}
   footer{
       width: 100%;
       height: 400px;
