@@ -615,6 +615,9 @@ ul li a{
 	.megc {
 		transform: scale(0.5)
 	}
+	.hero {
+		height: 40rem;
+	}
 	nav {
 		top: 82%;
 	}
