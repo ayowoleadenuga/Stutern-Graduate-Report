@@ -192,6 +192,7 @@ nav a:hover {
 	font-weight: 600;
 	font-size: 3rem;
 	display: inline-block;
+	text-transform: uppercase;
 }
 .mt3 {
 	margin-top: 3rem;
@@ -478,6 +479,12 @@ ul li a{
 }
 
 @media only screen and (min-width: 320px){
+	 	.about-header {
+			 font-size: 2.3rem;
+		 }
+		 .btn-down {
+			 margin-left: 0;
+		 }
     ul li a{
       font-size: 12px;
       font-family: 'Open Sans', sans-serif;
