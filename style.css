@@ -152,6 +152,8 @@ nav a:hover {
 	font-size: 1.2rem;
 	font-family: 'Montserrat', sans-serif;
 	color: #073731;
+	text-align: center;
+	margin-top: 1rem;
 }
 .hero{
 	width: 75%;
@@ -563,7 +565,7 @@ ul li a{
 		height: 3rem
 	}
 	.top-sect {
-		margin-top: -200px;
+		margin-top: -180px;
 		padding: 30px 30px;
 	}
 	.topic {
@@ -658,7 +660,7 @@ ul li a{
 		height: 40rem;
 	}
 	nav {
-		top: 85%;
+		top: 86%;
 	}
 	.header2 {
 		padding: 30px 30px;
