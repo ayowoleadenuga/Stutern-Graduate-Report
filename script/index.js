@@ -8,7 +8,7 @@ google.charts.load('upcoming', {
 google.charts.setOnLoadCallback(drawEmploymentStatusChart);
 google.charts.setOnLoadCallback(drawEmploymentLevelOfDegreeChart);
 google.charts.setOnLoadCallback(drawEmploymentStatusByGender);
-// // google.charts.setOnLoadCallback(drawSalaryChart);
+// google.charts.setOnLoadCallback(drawSalaryChart);
 // google.charts.setOnLoadCallback(drawSalaryDistributionChart);
 // google.charts.setOnLoadCallback(drawGraduateGotJobsChart);
 // google.charts.setOnLoadCallback(drawGraduatesWelfareChart);
@@ -149,8 +149,8 @@ function drawEmploymentStatusByGender() {
 $(window).resize(function() {
   drawEmploymentStatusChart(),
     drawEmploymentLevelOfDegreeChart(),
-    drawEmploymentStatusByGender(),
-    drawSalaryChart();
+    drawEmploymentStatusByGender();
+    // drawSalaryChart();
 });
 
 //sliders for icon

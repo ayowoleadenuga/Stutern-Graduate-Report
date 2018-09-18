@@ -172,7 +172,7 @@ nav a:hover {
 	padding-top: 10%;
 } 
 .hero-text h5 {
-	font-size: 2.5rem;
+	font-size: 2rem;
 }
 .hero-text p {
 	font-size: 1.8rem;
@@ -528,6 +528,7 @@ ul li a{
 		position: relative;
 		left: 0
 	}
+	
 	.navigation-category {
 		margin: 0;
 		width: 33.3%;
@@ -635,7 +636,7 @@ ul li a{
 		height: 40rem;
 	}
 	nav {
-		top: 82%;
+		top: 85%;
 	}
 	.new {
 		margin-left: 12%;
@@ -648,10 +649,12 @@ ul li a{
 	}
 	.megc {
 		width: 80%;
+		margin-top: 2rem;
 	}
 	.btn-down {
 		margin-left: 12.5%;
 	}
+	
   footer{
       width: 100%;
       height: 400px;
