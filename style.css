@@ -485,6 +485,13 @@ ul li a{
 	 	.about-header {
 			 font-size: 2.3rem;
 		 }
+		 .top-sect {
+			/* margin-top: -200px; */
+			padding: 0 0 0 5px !important;
+		}
+		.btn-top {
+			margin-left: 1.5rem;
+		}
 		 .btn-down {
 			 margin-left: 0;
 		 }
@@ -496,6 +503,18 @@ ul li a{
 		 }
 		 .new {
 			 margin-left: 0;
+		 }
+		 .header2 {
+			 /* text-align: center; */
+		 }
+		 .stat-text__topic {
+			 font-size: 2.5rem;
+		 }
+		 .header2 span {
+			font-size: 2rem;
+		 }
+		 .header2 p {
+			font-size: 1.5rem;
 		 }
     ul li a{
       font-size: 12px;
@@ -528,7 +547,9 @@ ul li a{
 		position: relative;
 		left: 0
 	}
-	
+	.btn-top {
+		/* margin-left: 0; */
+	}
 	.navigation-category {
 		margin: 0;
 		width: 33.3%;
@@ -543,7 +564,7 @@ ul li a{
 	}
 	.top-sect {
 		margin-top: -200px;
-		padding: 30px 30px !important
+		padding: 30px 30px;
 	}
 	.topic {
 		font-size: 4rem !important;
@@ -558,7 +579,8 @@ ul li a{
 	}
 	.stat-text__topic {
 		margin-top: 30px
-	}.mid {
+	}
+	.mid {
 		width: 100%;
 		/* background-color: aqua; */
 		padding: 20px 40px;
@@ -638,6 +660,18 @@ ul li a{
 	nav {
 		top: 85%;
 	}
+	.header2 {
+		padding: 30px 30px;
+	}
+	.header2 span {
+		font-size: 3.5rem;
+	 }
+	 .header2 p {
+		font-size: 2.3rem;
+	 }
+	#employment-chart {
+		margin-top: 7rem;
+	}
 	.new {
 		margin-left: 12%;
 	}
@@ -650,6 +684,9 @@ ul li a{
 	.megc {
 		width: 80%;
 		margin-top: 2rem;
+	}
+	.btn-top {
+		margin-left: 0;
 	}
 	.btn-down {
 		margin-left: 12.5%;
